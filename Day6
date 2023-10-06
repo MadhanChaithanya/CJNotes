@@ -1,0 +1,61 @@
+Compiler and JVM Activities:
+============================
+
+Compiler Responsibilities:
+==========================
+1. Compiler is translation software. It is responsible to convert source code to bytecode in JVM 
+  understandable way.
+
+2. Compiler takes .java files name as Input. It searches the .java file in PWD (Present Working Directory) with
+  the given name Example.java
+
+3. If not found, it throws error: file not found
+	D:\>CJ\javac A.java
+	error: file not found A.java
+
+4. If .java file is found, it reads entire code from first line to last line availble in this .java file
+
+5. Then verifies the syntax of each line for correctly written or not
+
+6. If there is any syntax mistake compiler throws error, and terminates compilation and .class file is not
+  generated.
+
+7. If there are no syntax mistakes, compiler translates entire source code to byte code and save it in 
+  new file with the extension .class and with classname as its name.
+		D:\CJ\>javac Example.java
+			|-> FirstProgram.class
+
+JVM Responsibilities:
+=====================
+
+1. The JVM is a Java Platform or Translation software. It is responsible for running 
+   Java bytecode by converting them into current OS machine language code.
+
+2. JVM takes classname as input and searches .class file with given class name as FirstProgram.class in PWD
+
+3. If .class is not found, JVM throws error 
+	D:\CJ\>java A
+		Error: Could not find or load main class A
+		Caused by: java.lang.ClassNotFoundException: A
+
+4. If .class is find, JVM searches main method in this class
+
+5. If main method is not found, JVM throws error
+	Error: Main method not found in class FirstProgram, 
+	please define the main method as:
+   		public static void main(String[] args)
+
+6. If main method is found, JVM starts execution and displays output as per the logic available in main method
+	D:\CJ\>java FirstProgram
+		|-> MCProgrammingWorld!
+
+7. During execution if there are any logical errors, 
+   JVM terminates program execution abnormally by throwing error, 
+   Abnormal termination means, the statements placed before error lines are executed,
+   the statements places after error line are not executed.
+
+Program #2: Develop a program to display your name on console.
+Program #3: Develop a program to display your name with stars on console as below
+		  ********
+		  *Madhan*
+		  ********
