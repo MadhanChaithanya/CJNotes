@@ -1,0 +1,39 @@
+Escape Sequences Characters:
+============================
+
+Program #4: Develop a program to display your name in two lines
+		I/P:			O/P:
+		===			===
+		Madhan Chaithanya	Madhan
+					Chaithanya
+
+// NameInTwoLines.java 
+class NameInTwoLines {
+	public static void main(String[] args) {
+		System.out.println("Madhan\nChaithanya");
+	}
+}
+
+Output:
+=======
+E:\Java>javac NameInTwoLines.java
+	 |->NameInTwoLines.class
+E:\Java>java NameInTwoLines
+Madhan
+Chaithanya
+
+--------------------
+-> \n is called new line escape sequence character
+-> when we want to move the characters display in next line at that place we must insert \n
+-> all characters placed after \n will be printed in the next.
+-> we can place multiple \n's either immediately or at different places.
+
+
+
+
+
+
+
+
+
+
