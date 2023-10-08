@@ -1,0 +1,106 @@
+How to Learn Java:
+====================
+1. Point wise theory(What,why,where,when & how)
+2. Logical Code Snippets
+3. Concept Wise Examples
+4. Applications
+5. Integrated Applications
+6. Project
+
+===================================================
+1995 => Java
+
+
+In 1995 Java was developed by James Gosling, Patrick Naughton, EdFrank, Chriswarth & Mike Sheridan
+at Sun Microsystems(now owned by Oracle Corpoation)
+
+Java Slogan:
+============
+"Write Once, Run Anywhere(WORA)"
+
+
+	byte a=5;
+	short b=3;
+	int c=a+b;
+	System.out.println(c);
+
+for understand this we need to know 6 concepts to answer this kind of logics?
+	Keywords, Datatypes, Variables, Identifiers, Operators, Literals
+
+Identifiers:
+============
+Identifier is a word and it is used to identify variable, method, class, interface, package .. etc.,
+
+It can be a variable name, method name, class name, identifier name, package name, .. etc.,
+
+Rules to declare an Identifier:
+-------------------------------
+1) It can be formed by using alphabets(A to Z & a to z), digits(0 to 9), underscore symbol(_) and 
+dollar symbol($).
+2) It must begins with alphabet, underscore symbol or dollar symbol.
+3) The length of the identifier is not limited.
+4) It should not contain special symbols other than underscore & dollar symbols.
+5) It should not contain white space characters(Space bar, tab & enter keys).
+
+Examples:
+=========
+1) demo		6) version id		11) _args
+2) Demo		7) version-id		12) $args
+3) DEMO		8) version_id		13) __$__
+4) 9demo	9) version#id		14) $args$
+5) demo9	10) version$id		15) _$args$_
+
+Keywords:
+=========
+A set of words reserved by language itself and those words are called keywords.
+
+Examples:
+---------
+byte, short, int, long, while, do, for, if, else, class, interface, package, import, void, static,
+final, public, private, protected, .. etc.,
+
+All keywwords must be written in lowercase letters only.
+
+There are at present total 50 keywords in Java including strictfp, assert & enum.
+
+strictfp keyword included in JDK 1.2 version
+assert keyword included in JDK 1.4 version
+enum keyword included in JDK 1.5 version
+
+JDK stands for Java Development Kit and it is called as Java Software.
+Latest Version of JDK is 21.
+
+Note-1: Keyword cannot be used as an identifier.
+Note-2: const & goto keywords presently not in use.
+
+Literals:
+=========
+A literal is a source code representation of a fixed value.
+
+In Java literals are divided into 6 categories:
+1) Integer Literals:
+----------------------
+5, 39, 292, 0, -2, -34, -798, .. etc.,
+
+2) Floating Point Literals:
+---------------------------
+45.393, 3.345, 0.0008, -224.567, -24.43, .. etc.,
+
+3) Character Literals:
+----------------------
+'a','z','B','V','6','+','-','', .. etc.,
+
+4) String Literals:
+-------------------
+"a","Hello","Welcome", .. etc.,
+
+5) Boolean Literals:
+--------------------
+true, false
+
+6) Object Literals:
+-------------------
+null 
+
+Note-1: true, false & null are not keywords.
+Note-2: true, false & null are also cannot be used as an identifier.
